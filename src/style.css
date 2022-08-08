@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family:'android';
+    src: url('fontes/idroid.otf') format('opentype') ;
+}
+@font-face {
+    font-family:"bebas-kai";
+    src: url("fontes/BebasKai.otf") format("opentype") ;
+}
+@import url('https://fonts.googleapis.com/css2? family= Anton & display=swap');
+
+:root {
+    --font-android:'android', cursiva;
+    --font-principal:'Bebas-kai', cursiva;
+}
+
+
+
+body{
+    background-color: rgb(37, 248, 178);
+}
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.925);
+    font-family: var(--font-principal);
+    font-size: 14px;
+}
+a:hover{
+    color: #000;
+    background-color: rgb(27, 165, 119);
+    border-radius: 3px;
+}
+h1{
+    color: rgb(18, 87, 4);
+    font-family: var(--font-android);
+    font-size: 18px;
+    padding: 5px;
+}
+h2{
+    background-image: linear-gradient(to right,rgb(27, 165, 119), rgba(27, 165, 119, 0.021));
+    padding-left: 6px;
+    font-family: var(--font-android);
+    font-size: 20px;
+    margin: 5px 0;
+}
+p{
+    text-align: justify;
+}
+.intro{
+    background-image:linear-gradient(to top,rgb(18, 87, 4),  rgb(27, 165, 119));
+    text-align: center;
+    padding-bottom: 15px;
+}
+#titulo-principal{
+    color: #fff;
+    padding: 15px;
+    font-family:var(--font-principal);
+    font-size: 2em;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.404);
+}
+#titulo-secundario{
+    color: #000;
+    text-align: center;
+}
+.menu-rapido{
+    display: flex;
+    background-color: rgb(18, 87, 4);
+}
+.menu-navegacao{
+    list-style: none;
+    padding-left: 10px;
+}
+
+
+#conteudo{
+    background-color: #fff;
+    padding: 10px;
+    margin: auto;
+    min-width: 330px;
+    max-width: 900px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 3px 8px 8px rgba(27, 165, 119, 0.849);
+}
+.liks-externos{
+    color: rgb(12, 104, 73);
+}
+.img-android1{
+    width: 100%;
+}
+.img-irina{
+    width: 100%;   
+}
+.img-android-atual{
+    display: block;
+    margin:auto;
+   width: auto;
+}
+
+.video{
+    background-color: rgb(12, 104, 73);
+    position: relative;
+    padding: 20px;
+    height: 250px;
+    border-radius: 5px;
+}
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width:90%;
+    height: 90%;
+}
+
+footer{
+   background-color: rgb(12, 104, 73);
+   color: #fff;
+   margin-top: 10px;
+}
+footer > p {
+    text-align: center;
+}
