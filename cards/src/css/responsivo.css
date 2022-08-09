@@ -1,0 +1,35 @@
+@media (max-width:620px ){
+    .pokemon-slider{
+        padding: 0 15px;
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        height: 680px;
+    }
+    .pokemon-slider{
+        width: 350px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .informacoes .nome{
+        font-size: 20px;
+    }
+    .informacoes .hp{
+        font-size: 15px;
+    }
+    .descricao .texto{
+        font-size: 14px;
+    }
+    .descricao .titulo{
+        font-size: 14px;
+    }
+    .lista-pokemon{
+        max-width: 300px;
+    }
+    .cartao-songoku{
+        height: 230px;
+    }
+    .cartao{
+        height: 430px;
+    }
+}
