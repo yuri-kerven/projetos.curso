@@ -1,0 +1,91 @@
+@font-face {
+    font-family:"cordel";
+    src: url("fonts/Cordel\ Rustika.otf") format("opentype") ;
+}
+@font-face {
+    font-family:"valentina";
+    src: url("fonts/Best\ Valentina\ OTF.otf") format("opentype");
+}
+
+:root{
+    --font1:"cordel";
+    --font2:"valentina";
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+}
+header{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-variant: small-caps;
+    padding: 50px 0 ;
+}
+header > h1{
+    font-family:var(--font1);
+    font-size: 4em;
+}
+header > p{
+    padding-top: 10px;
+}
+
+section{
+    padding-left: 25px;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    font-family: 'valentina';
+    font-size: 2em;
+    box-shadow: inset 3px 3px 13px rgba(0, 0, 0, 0.699);
+}
+
+.cordel{
+    background-color: #fff;
+    color: #000;
+    line-height: 2em;
+}
+
+.img.flor{
+    background-image: url("../src/imagens/background001.jpg");
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img.jornal{
+    background-image: url("../src/imagens/background002.jpg");
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img > p{
+    background-color: rgba(0, 0, 0, 0.432);
+    width: 350px;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    line-height: 2em;
+    box-shadow: 3px 3px 10px #000;
+    
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+    color: aquamarine;
+}
+a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
