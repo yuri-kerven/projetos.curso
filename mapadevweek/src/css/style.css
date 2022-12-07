@@ -1,0 +1,174 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url(../imagens/tela-fundo.jpg) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.creditos{
+    justify-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    gap: 10px;
+}
+
+.creditos .by{
+    color: rgb(207, 201, 201);
+    display:flex;
+}
+.creditos .desenvolvedor{
+    color: rgb(122, 122, 247);
+    margin-top: 4px;
+}
+
+.cartao-songoku {
+    width: 350px;
+    height: 350px;
+    max-width: 100%;
+}
+
+.card-gokublue {
+    width: 350px;
+    height: 350px;
+    max-width: 100%;
+}
+
+.card-goku {
+    width: 400px;
+    height: 350px;
+    max-width: 100%;
+}
+
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 130px;
+    gap: 10px;
+}
+
+.titulo {
+    color: rgb(255, 255, 255);
+}
+
+.pokebola {
+    width: 80px;
+    height: 80px;
+}
+
+
+.pokemon-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.lista-pokemon {
+
+    width: 430px;
+    height: 600px;
+    position: relative;
+}
+
+
+.btn-seta {
+    background-color: rgba(0, 0, 255, 0.1);
+    border: 100px;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 90px;
+    height: 50px;
+    transition: background-color 0.3s;
+
+    box-shadow: rgb(192, 187, 187) 0px 0px 30px 3px;
+}
+
+.btn-seta:hover {
+    background-color: rgba(252, 116, 66, 0.2);
+}
+
+.btn-seta.btn-voltar {
+    transform: rotateY(180deg);
+}
+
+
+.cartao {
+    opacity: 0;
+    background-color: blue;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    padding: 12px;
+    border-radius: 12px;
+    height: 570px;
+    box-shadow: rgb(5, 0, 0) 0px 0px 30px 3px;
+    transition: opacity 0.3ms;
+    color: rgb(207, 200, 200);
+}
+
+.cartao.selecionado {
+    opacity: 1;
+    z-index: 1;
+}
+
+
+.fundo1 {
+    background: url(../imagens/fundo-card-1.png) no-repeat;
+}
+
+.fundo2 {
+    background: url(../imagens/fundo-card2.jpg) no-repeat;
+}
+
+.fundo3 {
+    background: url(../imagens/fundo-card3.jpg) no-repeat;
+}
+
+
+.informacoes .nome {
+    background-color: rgba(252, 170, 63, 0);
+    display: flex;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.informacoes .hp {
+    background-color: rgba(231, 111, 13, 0.3);
+    width: 70px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
+.cartao .container-image {
+    text-align: center;
+}
+
+.cartao .descricao {
+    background-color: rgb(192, 187, 187, 0.7);
+    border-radius: 8px;
+}
+
+.cartao .titulo {
+    background-color: rgba(7, 2, 0, 0.5);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.cartao .descricao .texto {
+    color: rgb(5, 0, 0);
+    overflow-y: auto;
+    text-align: justify;
+    padding: 5px;
+    max-height: 90px;
+}
+
+.cartao .hp.blue {
+    min-width: 25%;
+}
